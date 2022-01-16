@@ -1,0 +1,1 @@
+This repo contains a Java project which will be using maven as the build configuration tool and the app will be build using jenkins. The jenkins job will be triggered automatically whenever something is pushed to the repo.

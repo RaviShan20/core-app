@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent {label : git-maven}
 
     tools {
         maven "maven-3.6.2"

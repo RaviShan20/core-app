@@ -7,7 +7,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git branch: 'main', url: 'https://github.com/DevOpsABB22/core-app.git'
+                 scm checkout
+              //  git branch: 'main', url: 'https://github.com/DevOpsABB22/core-app.git'
                 sh "mvn -Dmaven.test.failure.ignore=true clean package"
             }
 

@@ -1,5 +1,5 @@
 pipeline {
-    agent {label "maven-label"}
+    agent {label "test-label"}
     tools {
         maven "maven-3.6.2"
     }
